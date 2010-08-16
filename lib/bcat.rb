@@ -84,6 +84,7 @@ class Bcat
       "<head>",
       "<!-- bcat was here -->",
       "<title>#{self[:title] || 'bcat'}</title>",
+      "<link href='http://sirupsen.com/static/css/basic.css' rel='stylesheet' />",
       inject.to_s,
       "</head>"
     ].join("\n")
